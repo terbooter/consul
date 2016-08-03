@@ -1,0 +1,4 @@
+consul:
+ build: .
+ net: "host"
+ command: ["/server.sh"]

@@ -1,0 +1,14 @@
+{
+  "data_dir": "/consul/data",
+  "encrypt": "X4SYOinf2pTAcAHRhpj7dA==",
+  "log_level": "INFO",
+  "addresses": {
+    "http": "172.17.0.1",
+    "rpc": "127.0.0.1",
+    "dns": "0.0.0.0"
+  },
+  "ports": {
+    "dns": 53,
+    "http": 8500
+  }
+}
