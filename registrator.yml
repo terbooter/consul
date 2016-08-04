@@ -1,0 +1,6 @@
+registrator:
+ image: gliderlabs/registrator:latest
+ net: "host"
+ volumes:
+   - /var/run/docker.sock:/tmp/docker.sock
+ command: ["consul://172.17.0.1:8500"]
