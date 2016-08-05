@@ -1,4 +1,0 @@
-consul:
- build: .
- net: "host"
- command: ["/bootstrap.sh"]

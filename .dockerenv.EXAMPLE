@@ -1,0 +1,13 @@
+## Rename this file to .docker env
+
+## Consul container cam be start in 3 modes
+## BOOTSTRAP
+## SERVER
+## AGENT
+## Choose one by uncomment line
+#CONSUL_RUN_MODE=BOOTSTRAP
+#CONSUL_RUN_MODE=SERVER
+CONSUL_RUN_MODE=AGENT
+
+## Set this var if you run consul in server or agent mode
+JOIN_IP=1.1.1.1

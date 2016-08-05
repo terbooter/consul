@@ -1,16 +1,6 @@
 Запуск `consul` в 3-х режимах
-1) bootstrap
-```
-docker-compose -f bootstrap.yml up
-```
-2) server
-```
-docker-compose -f server.yml up
-```
-3) agent
-```
-docker-compose -f server.yml up
-```
+Для этого нужно установить требуемое значение переменной среды
+в файле `.dockerenv`
 
 Консулов в режиме сервер должно быть не менее 3-х, 
 на всех остальных должны быть в режиме агента.

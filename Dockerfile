@@ -5,6 +5,6 @@ ADD https://releases.hashicorp.com/consul/${CONSUL_VERSION}/consul_${CONSUL_VERS
 RUN apt-get install -y unzip curl
 RUN cd /bin && unzip /tmp/consul.zip && chmod +x /bin/consul && rm /tmp/consul.zip
 ADD ./conf.json /conf.json
-COPY ./bin/ /
+COPY ./start.sh /start.sh
 RUN chmod a+rwx /*.sh
-CMD ["/bootstrap.sh"]
+CMD ["/start.sh"]
