@@ -1,6 +1,6 @@
 consul:
-# image: terbooter/consul
- build: .
+ image: terbooter/consul
+# build: .
  net: "host"
  command: ["/start.sh"]
  restart: always
