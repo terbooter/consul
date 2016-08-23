@@ -10,5 +10,13 @@
   "ports": {
     "dns": 53,
     "http": 8500
+  },
+  "dns_config": {
+    "allow_stale": true,
+    "max_stale": "3s",
+    "node_ttl": "3s",
+    "service_ttl": {
+      "*": "3s"
+    }
   }
 }
