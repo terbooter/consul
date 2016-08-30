@@ -1,2 +1,4 @@
 .idea
 .dockerenv
+docker-compose.override.yml
+local_conf
