@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-ENV CONSUL_VERSION 0.6.4
+ENV CONSUL_VERSION 0.7.0
 RUN apt-get update
 ADD https://releases.hashicorp.com/consul/${CONSUL_VERSION}/consul_${CONSUL_VERSION}_linux_amd64.zip /tmp/consul.zip
 RUN apt-get install -y unzip curl iputils-ping dnsutils
